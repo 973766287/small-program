@@ -50,5 +50,16 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  test: function(){
+    this.setData({
+      testinfo:'成功',
+      teststatus:1
+    })
+  },
+  tiao: function(){
+    wx.navigateTo({
+      url: '/pages/test/test',
+    })
   }
 })

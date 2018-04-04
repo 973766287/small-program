@@ -1,0 +1,7 @@
+.input{
+  border-bottom:1px solid #e2e2e2;
+  padding: 0 4px;
+}
+button{
+  margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+<!--test.wxml-->
+<view class='container'>
+  <block>
+    <text>{{a}}</text>
+  </block>
+  <block>
+    <input value='' class='input' bindinput='input'>1</input>
+    <button bindtap='get'>获取输入框值</button>
+  </block>
+</view>

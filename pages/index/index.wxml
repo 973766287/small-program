@@ -7,6 +7,15 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view>
+    <button bindtap="test" class='test'> 点击测试 
+      <block wx:if="{{teststatus}}">{{testinfo}}</block>
+      <block wx:else>{{teststatus}}</block>
+    </button>
+  </view>
+  <view>
+    <button class='test' bindtap='tiao'>跳转测试</button>
+  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
